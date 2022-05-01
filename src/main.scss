@@ -151,7 +151,7 @@ button {
         height: 1.625rem;
       }
 
-      h3 {
+      h2 {
         font-family: var(--font-stack-body);
         font-size: 3.75rem;
         font-weight: 700;
@@ -282,7 +282,14 @@ button {
       }
 
       label {
-        display: none;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
       }
 
       button {
@@ -421,7 +428,7 @@ button {
           height: 2.875rem;
         }
 
-        h3 {
+        h2 {
           font-size: 6rem;
         }
 
