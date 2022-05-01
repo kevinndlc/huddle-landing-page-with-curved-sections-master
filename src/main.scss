@@ -151,12 +151,13 @@ button {
         height: 1.625rem;
       }
 
-      dt {
+      h3 {
+        font-family: var(--font-stack-body);
         font-size: 3.75rem;
         font-weight: 700;
       }
 
-      dd {
+      span {
         font-size: 15.24px;
         color: hsl(208, 12%, 55%);
       }
@@ -280,6 +281,10 @@ button {
         margin-bottom: 1rem;
       }
 
+      label {
+        display: none;
+      }
+
       button {
         background: var(--pink);
         color: white;
@@ -392,6 +397,8 @@ button {
       &__text {
         font-size: 1.25rem;
         margin-bottom: 3rem;
+        width: 37.5rem;
+        margin-inline: auto;
       }
 
       &__cta {
@@ -411,14 +418,14 @@ button {
         grid-template-columns: repeat(2, 1fr);
 
         img {
-          height: 3.5rem;
+          height: 2.875rem;
         }
 
-        dt {
+        h3 {
           font-size: 6rem;
         }
 
-        dd {
+        span {
           font-size: 1.5rem;
         }
       }
